@@ -17,12 +17,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "sidekiq-cron"
-  gem.homepage = "http://github.com/ondrejbartas/sidekiq-cron"
+  gem.homepage = "http://github.com/avalonmediasystem/sidekiq-cron"
   gem.license = "MIT"
-  gem.summary = %Q{Sidekiq Cron helps to add repeated scheduled jobs}
+  gem.summary = %Q{Sidekiq Cron helps to add repeated scheduled jobs (Avalon fork)}
   gem.description = %Q{Enables to set jobs to be run in specified time (using CRON notation)}
-  gem.email = "ondrej@bartas.cz"
-  gem.authors = ["Ondrej Bartas"]
+  gem.email = "mj82@iu.edu"
+  gem.authors = ["Ondrej Bartas", "Avalon Project"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
